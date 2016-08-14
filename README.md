@@ -18,19 +18,19 @@ following sections in your project's `composer.json` file:
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/mikemccabe/json-patch-php"
+            "url": "https://github.com/skvrd/json-patch-php/"
         }
     ],
     "require": {
-        "mikemccabe/json-patch-php": "dev-master"
+        "skvrd/json-patch-php": "dev-master"
     }
 ```
 
 Then, in your project's code, use the `JsonPatch` class definition from
-the `mikemccabe\JsonPatch` namespace like so:
+the `Skvrd\JsonPatch` namespace like so:
 
 ```php
-use mikemccabe\JsonPatch\JsonPatch;
+use Skvrd\JsonPatch\JsonPatch;
 ```
 
 Entry points
